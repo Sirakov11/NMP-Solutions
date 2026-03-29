@@ -1,0 +1,7 @@
+{
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ],
+  "buildCommand": "cd nmpsolutions2/artifacts/nmpsolutions && pnpm install && pnpm run build",
+  "outputDirectory": "nmpsolutions2/artifacts/nmpsolutions/dist"
+}
